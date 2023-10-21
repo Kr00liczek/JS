@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <head>
+        <title>Zad 14 - Kozikowski</title> 
+        <meta charset="utf-8">
+    </head>
+        <body>
+            <div style="color:red; font-size:50px;"> 
+                <script language="JavaScript"> 
+                   function ulamek_koz(m_koz)
+                   {
+                        ulamek = `1&frasl;${m_koz} =`;
+                        m1 = m_koz + 1;
+                        m2 = m_koz + 2;
+                        m3 = (m_koz + 1) * m_koz;
+                        m4 = (m_koz + 1) * (m_koz + 2);
+
+                        ulamek += ` 1&frasl;${m2} + 1&frasl;${m4} + 1&frasl;${m3} `;
+    
+                        return ulamek;
+                    }
+
+                    m_koz = parseFloat(prompt("m = "));
+
+                    document.write("<u>Dane do sprawdzenia:</u><br>")
+                    document.write("m = "+m_koz+"<br><br>")
+                    document.write(ulamek_koz(m_koz));
+                </script>
+            </div>
+        </body>
+</html>

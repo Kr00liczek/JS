@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Kod Zadanie 12 - Kozikowski
+        </title>
+    </head>
+        <body>
+            <h1>Kod HTML</h1>
+            <textarea cols="82" rows="32">
+<html>
+    <head>
+        <title>Zad 12 - Kozikowski</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div style="color:red; font-size:50px;">
+            <script language="JavaScript">
+alert("D1 >= D2  i  G1 >= G2")
+
+var liczbal=prompt("D1 =", ""); 
+var godzina1=prompt("G1 =", "");
+var liczba2=prompt("D2 =", "");
+var godzina2=prompt("G2 =", "");
+                
+var D1_koz=parseFloat(liczbal);
+var G1_koz=parseFloat(godzina1);
+var D2_koz=parseFloat(liczba2);
+var G2_koz=parseFloat(godzina2);
+
+var ile_sekund_koz = ((D1_koz - D2_koz) * 24 * 3600) + ((G1_koz - G2_koz) * 3600);
+
+document.write("<u>Dane do sprawdzenia:</u><br><br>");
+document.write("D1 = "+D1_koz+"<br> G1 = "+G1_koz+"<br> D2 = "+D2_koz+"<br> G2 = "+G2_koz+"<br>");
+document.write("Ilość sekund = " + ile_sekund_koz);
+            </script>
+        </div>
+    </body>
+</html></textarea>
+        </body>
+</html>
