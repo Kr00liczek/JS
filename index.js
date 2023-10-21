@@ -46,50 +46,57 @@ function WinOpen_zad10()
 function WinOpen_zad11()
     {window.open("zadanie11_koz.html", "okienko_z11",
     "toolbar=no, directories=no, menubar=no, height=350, width=600, top=200, left=400");}
-
+//=====================Kod===============
 function WinOpen_kod11()
     {window.open("zadanie11_koz_KOD.html", "okienko_kod11",
-    "toolbar=no, directories=no, menubar=no, height=600, width=600, top=200, left=400");} //kod
+    "toolbar=no, directories=no, menubar=no, height=500, width=600, top=200, left=400");} 
 
+
+    
 function WinOpen_zad12()
     {window.open("zadanie12_koz.html", "okienko_z12",
     "toolbar=no, directories=no, menubar=no, height=450, width=600, top=200, left=400");}
-
+//=====================Kod===============
 function WinOpen_kod12()
     {window.open("zadanie12_koz_KOD.html", "okienko_kod12",
-    "toolbar=no, directories=no, menubar=no, height=600, width=650, top=200, left=400");} //kod
+    "toolbar=no, directories=no, menubar=no, height=600, width=650, top=200, left=400");} 
     
+
+
 function WinOpen_zad13()
     {window.open("zadanie13_koz.html", "okienko_z13",
     "toolbar=no, directories=no, menubar=no, height=350, width=600, top=200, left=400");}
-
+//=====================Kod===============
 function WinOpen_kod13()
     {window.open("zadanie13_koz_KOD.html", "okienko_kod13",
-    "toolbar=no, directories=no, menubar=no, height=600, width=600, top=200, left=400");} //kod
+    "toolbar=no, directories=no, menubar=no, height=550, width=600, top=200, left=400");} 
+
+
 
 function WinOpen_zad14()
     {window.open("zadanie14_koz.html", "okienko_z14",
     "toolbar=no, directories=no, menubar=no, height=350, width=600, top=200, left=400");}
-
+//=====================Kod===============
 function WinOpen_kod14()
     {window.open("zadanie14_koz_KOD.html", "okienko_kod14",
-    "toolbar=no, directories=no, menubar=no, height=350, width=600, top=200, left=400");} //kod
+    "toolbar=no, directories=no, menubar=no, height=550, width=600, top=200, left=400");} 
+
+
 
 function WinOpen_zad15()
     {window.open("zadanie15_koz.html", "okienko_z15",
     "toolbar=no, directories=no, menubar=no, height=550, width=600, top=200, left=400");}
-
+//=====================Kod===============
 function WinOpen_kod15()
     {window.open("zadanie15_koz_KOD.html", "okienko_kod15",
-    "toolbar=no, directories=no, menubar=no, height=700, width=600, top=200, left=400");} //kod
+    "toolbar=no, directories=no, menubar=no, height=660, width=600, top=200, left=400");} 
+
 
 
 function WinOpen_zad16()
     {window.open("zadanie16_koz.html", "okienko_z16",
     "toolbar=no, directories=no, menubar=no, height=350, width=600, top=200, left=400");}
-
+//=====================Kod===============
 function WinOpen_kod16()
     {window.open("zadanie16_koz_KOD.html", "okienko_kod16",
-    "toolbar=no, directories=no, menubar=no, height=450, width=600, top=200, left=400");} //kod
-    //zmienić rozmiary okien 14-16
-//==================================Dział 4==================================================
+    "toolbar=no, directories=no, menubar=no, height=450, width=600, top=200, left=400");} 
