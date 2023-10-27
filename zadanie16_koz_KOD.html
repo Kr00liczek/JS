@@ -6,7 +6,7 @@
     </head>
         <body>
             <h1>Kod HTML</h1>
-            <textarea cols="75" rows="22">
+            <textarea cols="75" rows="24">
 <html>
     <head>
         <title>Zad 16 - Kozikowski</title> 
@@ -15,13 +15,15 @@
     </head>
         <body>
             <script language="JavaScript"> 
-                var A = parseInt(prompt("Podaj pierwszą liczbę"));
-                var B = parseInt(prompt("Podaj drugą liczbę"));
+                var a_koz = prompt("Podaj pierwszą liczbe");
+                var a = parseFloat(a_koz);
+                var b_koz = prompt("Podaj drugą liczbe");
+                var b = parseFloat(b_koz);
         
-                var wynik = Math.pow((A + B), 3);
-                var wydruk_koz = `(${A} + ${B})<sup>3</sup> = ${A}<sup>3</sup> + 3•${A}<sup>2</sup>•${B} + 3•${A}•${B}<sup>2</sup> + ${B}<sup>3</sup> = ${wynik}`;
+                var wynik = Math.pow((a + b), 3);
+                var wydruk_koz = `(${a} + ${b})<sup>3</sup> = ${a}<sup>3</sup> + 3•${a}<sup>2</sup>•${b} + 3•${a}•${b}<sup>2</sup> + ${b}<sup>3</sup> = ${wynik}`;
 
-                document.write("<u>Wczytane liczby:</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A = "+A+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B = "+B+"<br><br>");
+                document.write("<u>Wczytane liczby:</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A = "+a+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B = "+b+"<br><br>");
                 document.write(wydruk_koz);
             </script>
         </body>
