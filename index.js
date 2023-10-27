@@ -29,15 +29,15 @@ function zad6()
 
 function zad7()
     {window.open("zadanie7_koz.html", "okienko_z7",
-    "toolbar=no, directories=no, menubar=no, height=1000, width=1100, top=200, left=400");}
+    "toolbar=no, directories=no, menubar=no, height=200, width=500, top=200, left=400");}
 
 function zad8()
     {window.open("zadanie8_koz.html", "okienko_z8",
-    "toolbar=no, directories=no, menubar=no, height=1000, width=1100, top=200, left=400");}
+    "toolbar=no, directories=no, menubar=no, height=220, width=700, top=200, left=400");}
 
 function zad9()
     {window.open("zadanie9_koz.html", "okienko_z9",
-    "toolbar=no, directories=no, menubar=no, height=1000, width=1100, top=200, left=400");}
+    "toolbar=no, directories=no, menubar=no, height=220, width=750, top=200, left=400");}
 
 function zad10()
     {window.open("zadanie10_koz.html", "okienko_z10",
