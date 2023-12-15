@@ -100,3 +100,9 @@ function zad16()
 function kod16()
     {window.open("zadanie16_koz_KOD.html", "okienko_kod16",
     "toolbar=no, directories=no, menubar=no, height=450, width=600, top=200, left=400");} 
+
+//==================================Dział 5==================================================
+
+function zad28()
+    {window.open("zadanie28_koz.html", "okienko_z28",
+    "toolbar=no, directories=no, menubar=no, height=1000, width=1100, top=200, left=400");}
