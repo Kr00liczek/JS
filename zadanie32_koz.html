@@ -1,0 +1,36 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ function autobus(marka_k,rocznik_k,miejsce_k)
+{
+this.marka=marka_k;
+this.rocznik=rocznik_k;
+this.miejsce=miejsce_k;
+}
+ autobus.prototype.Autobus_pokaz_kozikowski = function () 
+ {
+ alert(this.marka + ' ' + this.rocznik+ ' ' + this.miejsce);
+ };
+var autobus1 = new autobus("Solaris Urbino 12", "2014", "Gdańsk"); 
+var autobus2 = new autobus('Mercedes Conecto LF', '2011', 'Lublin');
+var autobus3 = new autobus('MAN NG 313', '2002', 'Gdańsk');
+autobus1.Autobus_pokaz_kozikowski(); 
+autobus2.Autobus_pokaz_kozikowski();
+autobus3.Autobus_pokaz_kozikowski();
+ document.write("<h1>dostęp do właściwości</h1>"+"<br>");
+
+ document.write("autobus pierwszy"+" "+autobus1.marka+" "+autobus1.rocznik+" "+autobus1.miejsce+"<br>");
+ document.write("autobus drugi"+" "+autobus2.marka+" "+autobus2.rocznik+" "+autobus2.miejsce+"<br>");
+ document.write("autobus trzeci"+" "+autobus3.marka+" "+autobus3.rocznik+" "+autobus3.miejsce+"<br>");
+ </script>
+ </head>
+<body>
+<br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/New_Solaris_Urbino_12%2C_Gda%C5%84sk.JPG" width="100" height="100">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Subotica%2C_autobus_Connecto.jpg" width="100" height="100">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/MAN_NG313_Bydgoszcz.jpg" width="100" height="100"><br>
+ programowanie obiektowe 
+</body>
+</html>

@@ -106,3 +106,31 @@ function kod16()
 function zad28()
     {window.open("zadanie28_koz.html", "okienko_z28",
     "toolbar=no, directories=no, menubar=no, height=1000, width=1100, top=200, left=400");}
+
+function zad29()
+    {window.open("zadanie29_koz.html", "okienko_z29",
+    "toolbar=no, directories=no, menubar=no, height=1000, width=1100, top=200, left=400");}
+
+function zad30()
+    {window.open("zadanie30_koz.html", "okienko_z30",
+    "toolbar=no, directories=no, menubar=no, height=360, width=650, top=200, left=400");}
+//=====================Kod===============
+function kod30()
+    {window.open("zadanie30_koz_KOD.html", "okienko_kod30",
+    "toolbar=no, directories=no, menubar=no, height=450, width=600, top=200, left=400");}
+
+function zad31()
+    {window.open("zadanie31_koz.html", "okienko_z31",
+    "toolbar=no, directories=no, menubar=no, height=360, width=650, top=200, left=400");}
+//=====================Kod===============
+function kod31()
+    {window.open("zadanie31_koz_KOD.html", "okienko_kod31",
+    "toolbar=no, directories=no, menubar=no, height=480, width=700, top=200, left=400");}
+
+function zad32()
+    {window.open("zadanie32_koz.html", "okienko_z32",
+    "toolbar=no, directories=no, menubar=no, height=300, width=500, top=200, left=400");}
+//=====================Kod===============
+function kod32()
+    {window.open("zadanie32_koz_KOD.html", "okienko_kod32",
+    "toolbar=no, directories=no, menubar=no, height=850, width=700, top=200, left=400");}
