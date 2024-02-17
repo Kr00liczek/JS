@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>
+            Kod Zadanie 38 Wiosna - Kozikowski
+        </title>
+    </head>
+        <body>
+            <h1>Kod HTML</h1>
+            <textarea cols="140" rows="58">
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zad 38 Wiosna - Kozikowski</title>
+    <style>
+        body {background-color: silver;}
+        p {color:green; font-size: 41px;}
+        span {color:red; font-size: 41px;}
+        td {padding: 5px; color: green; font-size: 30px;}
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        var l1=7, l2=l1+7, l3=10, l4=l3+4, opcja_koz=parseFloat(prompt("Podaj opcję:"));
+        document.write("<p>Moje nazwisko to: Norbert Kozikowski<br>");
+        document.write("liczba1 = "+l1+"<br>liczba2 = "+l1+" + 7 ="+l2+"<br>liczba3 = "+l3+"<br>liczba4 = "+l3+" + 4 = "+l4+"</p>");
+        document.write("<span><center>------------MENU------------</center><br>");
+        document.write("7 - Wyświetlenie teorii o operatorach<br>");
+        document.write("30 - Czy liczba należy do przedziału (7 ; 14]<br>");
+        document.write("74 - Czy liczba należy do przedziału (-∞ ; 10) ∨ [14 ; ∞)</span><br><br>");
+
+        if (opcja_koz==7)
+        {
+            document.write("<font color=blue size=7>Jesteś w opcji 7</font>"+"<br>");
+            document.write("<table border='1'><tbody><tr><td>Operator</td><td>Opis</td><td>Przykład</td></tr>");
+            document.write("<tr><td>&&</td><td>i</td><td>x=3 y=4 (x < 9 && y > 2) wynik:prawda</td></tr>");
+            document.write("<tr><td>||</td><td>lub</td><td>x=3 y=4 (x==8 || y==6) wynik:fałsz</td></tr>");
+            document.write("<tr><td>!</td><td>zaprzeczenie</td><td>x=3 y=4 !(x==y) wynik:prawda</td></tr></tbody></table>");
+        }
+
+         else if (opcja_koz==30)
+        {
+            document.write("<font color=green size=7>Jesteś w opcji 30</font>"+"<br>");
+            var liczba_koz = parseFloat(prompt("Podaj liczbę:"));
+
+            if(liczba_koz>7 && liczba_koz<=14)
+                {document.write("<font color=green size=7>liczba "+liczba_koz+" <b>należy</b> do przedziału</font>");}
+            else
+                {document.write("<font color=green size=7>liczba "+liczba_koz+" <span><u><b>nie należy</b></u></span> do przedziału</font>")}
+        }
+
+        else if (opcja_koz==74)
+        {
+            document.write("<font color=green size=7>Jesteś w opcji 74</font>"+"<br>");
+            var liczba2_koz = parseFloat(prompt("Podaj liczbę:"));
+
+            if(liczba2_koz<10 || liczba2_koz>=14)
+                {document.write("<font color=green size=7>liczba "+liczba2_koz+" <b>należy</b> do przedziału</font>");}
+            else
+                {document.write("<font color=green size=7>liczba "+liczba2_koz+" <span><u><b>nie należy</b></u></span> do przedziału</font>")}
+        }
+        else
+        {document.write("<font color=red size=7>Nie ma takiej opcji</font>");}
+
+    </script>
+</body>
+</html></textarea></body></html>

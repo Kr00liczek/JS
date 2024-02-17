@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Zad 38 - Kozikowski</title>
+    <style>
+        body {font-weight: bold; font-size: 30px;}
+        input {width: 100px; height: 60px; font-size: 30px;}
+    </style>
+</head>
+    <body>
+        <center><h4>Program sprawdzający parzystość liczby</h4>
+        <input type="button" name="kozikowski" value="Oblicz" onclick="fun_koz()"></center>
+        <script>
+            function fun_koz() 
+            {
+                var x_koz = prompt("Podaj liczbę", "");
+
+                if(x_koz%2 == 0)
+                    {document.write('<h3 style="color:red;">Liczba jest parzysta</h3>')}
+                else
+                    {document.write('<h4 style="color:silver;">Liczba jest nieparzysta</h4>')}
+            }
+        </script>
+    </body>
+</html>
