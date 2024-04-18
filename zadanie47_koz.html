@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Zad 47 - Kozikowski</title>
+    <style>
+        body {text-align: center; font-size: 50px; font-family: Verdana;}
+        #tak {color: lightseagreen;}
+        #nie {color: crimson;}
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        var a_koz, b_koz, c_koz;
+
+        do {a_koz = parseFloat(prompt("Podaj długość boku a:"));}
+        while (a_koz <= 0);
+
+        do {b_koz = parseFloat(prompt("Podaj długość boku b:"));}
+        while (b_koz <= 0);
+
+        do {c_koz = parseFloat(prompt("Podaj długość boku c:"));}
+        while (c_koz <= 0);
+
+ 
+
+        if (a_koz + b_koz > c_koz && a_koz + c_koz > b_koz && b_koz + c_koz > a_koz) 
+        {document.write('<p id="tak">Podane boki tworzą trójkąt</p>');} 
+        else 
+        {document.write('<p id="nie">Podane boki nie tworzą trójkąta</p>');}
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Zad 43 - Kozikowski</title>
+    <style>
+        body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;}
+    </style>
+</head>
+<body>
+    <script>
+        function parzyste_koz() 
+        {
+            var liczba_koz = parseInt(prompt("Podaj liczbę:"));
+
+            if (liczba_koz>=0) 
+            {
+                document.write('<h3>Liczby parzyste od 2 do ' + liczba_koz + ':</h3>');
+                
+                for (i_koz=2; i_koz <= liczba_koz; i_koz+=2)
+
+                {document.write(i_koz+ '<br>');}
+             }
+
+            else 
+                {document.write('<h3 style="color:red;">To nie jest prawidłowa liczba.</h3>');}
+        }
+
+parzyste_koz();
+    </script>
+    
+</body>
+</html>
