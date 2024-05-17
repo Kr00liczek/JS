@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>Zad 55 - Kozikowski</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function tekst(l1_t_koz, l2_t_koz, pocz_koz, tekst_koz) 
+        {
+            var pocz_koz = parseFloat(prompt("Ile razy ma być wyświetlony tekst?"));
+
+            var l1_t_koz;
+            do 
+            {
+                l1_t_koz = parseFloat(prompt("Podaj rozmiar pierwszego tekstu"));
+                if (l1_t_koz < 20 || l1_t_koz > 60) 
+                {alert("Liczba l1 nie należy do przedziału");}
+
+            } 
+            while (l1_t_koz < 20 || l1_t_koz > 60);
+
+
+            var l2_t_koz;
+            do 
+            {
+                l2_t_koz = parseFloat(prompt("Podaj rozmiar drugiego tekstu"));
+                if (l2_t_koz < 20 || l2_t_koz > 60) 
+                {alert("Liczba l2 nie należy do przedziału");}
+            } 
+            while (l2_t_koz < 20 || l2_t_koz > 60);
+
+            var tekst_koz = prompt("Podaj teskt, który ma się wyświetlić "+pocz_koz+" razy:");
+
+            for (var i = 1; i <= pocz_koz; i++) 
+            {
+                var rozmiar = l1_t_koz + i * 5; 
+                if (l1_t_koz > l2_t_koz) 
+                {rozmiar = l1_t_koz - i * 5;}
+
+                if (rozmiar > 100 || rozmiar < 0) 
+                {break;}
+
+                document.write("<p style=\"font-size:"+rozmiar+"px;\">"+tekst_koz+"<br></p>");
+            }
+        }
+        
+        tekst();
+    </script>
+</body>
+</html>

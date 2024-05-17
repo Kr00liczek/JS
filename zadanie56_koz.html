@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Zad 56 - Kozikowski</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function wielomian() 
+        {
+            for (i=0 ; i<=4 ; i++) 
+            {
+                document.write("i = "+i+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+                document.write("w("+i+") = " + (i*i+i+41));
+        
+                if (i<4) 
+                {document.write("<br>");}
+            }
+
+            var con = confirm("Aby kontynuować, naciśnij dowolny klawisz");
+            if (con) 
+            {
+                for (i=5 ; i<=39 ; i++)
+                {
+                    document.write("<br>i = "+i+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+                    document.write("w("+i+") = "+(i*i+i+41));
+                }
+            }
+        }
+
+        wielomian();
+    </script>
+</body>
+</html>

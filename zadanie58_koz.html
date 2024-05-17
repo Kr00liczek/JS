@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Zad 58 - Kozikowski</title>
+    </head>
+    <body>
+    <div>
+    <script language="javascript"> 
+    do 
+    {
+        var x_koz=prompt("podaj liczbę 1",""); 
+        var liczba1_koz=parseInt(x_koz);
+        var y_koz=prompt("podaj liczbę 2",""); 
+        var liczba2_koz=parseInt(y_koz);
+
+        if(liczba1_koz == liczba2_koz){
+        confirm("Obie liczby są równe.");}
+    }
+
+    while (liczba1_koz== liczba2_koz);
+
+    if(liczba1_koz < liczba2_koz)
+    {
+        for(i=liczba1_koz;i<=liczba2_koz;i++)
+        {
+            if(i%2!=0)
+            {document.write("<p style=\"font-size:40px; color: green;\"><br>"+i+"<br></p>");}
+        }
+    }
+
+    else
+    {
+        for(i=liczba1_koz;i>=liczba2_koz;i--)
+        {
+            if(i%2!=0)
+            {document.write("<p style=\"font-size:20px; color: blue;\"><br>"+i+"<br></p>");}
+        }
+    }
+    </script>
+    </div>
+    </body></html>

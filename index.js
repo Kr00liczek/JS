@@ -222,3 +222,51 @@ function zad47()
 function kod47()
     {window.open("zadanie47_koz_KOD.html", "okienko_kod47",
     "toolbar=no, directories=no, menubar=no, height=600, width=700, top=200, left=400");}
+
+function zad49()
+    {window.open("zadanie49_koz.html", "okienko_z49",
+    "toolbar=no, directories=no, menubar=no, height=250, width=600, top=200, left=400");}
+//=====================Kod===============
+function kod49()
+    {window.open("zadanie49_koz_KOD.html", "okienko_kod49",
+    "toolbar=no, directories=no, menubar=no, height=600, width=700, top=200, left=400");}
+
+function zad50()
+    {window.open("zadanie50_koz.html", "okienko_z50",
+    "toolbar=no, directories=no, menubar=no, height=550, width=600, top=200, left=400");}
+//=====================Kod===============
+function kod50()
+    {window.open("zadanie50_koz_KOD.html", "okienko_kod50",
+    "toolbar=no, directories=no, menubar=no, height=600, width=700, top=200, left=400");}
+
+function zad51()
+    {window.open("zadanie51_koz.html", "okienko_z51",
+    "toolbar=no, directories=no, menubar=no, height=250, width=600, top=200, left=400");}
+
+function zad52()
+    {window.open("zadanie52_koz.html", "okienko_z52",
+    "toolbar=no, directories=no, menubar=no, height=250, width=600, top=200, left=400");}
+
+function zad53()
+    {window.open("zadanie53_koz.html", "okienko_z53",
+    "toolbar=no, directories=no, menubar=no, height=250, width=600, top=200, left=400");}
+
+function zad54()
+    {window.open("zadanie54_koz.html", "okienko_z54",
+    "toolbar=no, directories=no, menubar=no, height=700, width=700, top=200, left=400");}
+
+function zad55()
+    {window.open("zadanie55_koz.html", "okienko_z55",
+    "toolbar=no, directories=no, menubar=no, height=700, width=700, top=200, left=400");}
+
+function zad56()
+    {window.open("zadanie56_koz.html", "okienko_z56",
+    "toolbar=no, directories=no, menubar=no, height=750, width=600, top=200, left=400");}
+
+function zad57()
+    {window.open("zadanie57_koz.html", "okienko_z57",
+    "toolbar=no, directories=no, menubar=no, height=400, width=600, top=200, left=400");}
+
+function zad58()
+    {window.open("zadanie58_koz.html", "okienko_z58",
+    "toolbar=no, directories=no, menubar=no, height=400, width=600, top=200, left=400");}

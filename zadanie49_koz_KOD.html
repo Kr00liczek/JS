@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            Kod Zadanie 49 - Kozikowski
+        </title>
+    </head>
+        <body>
+            <h1>Kod HTML</h1>
+            <textarea cols="90" rows="34">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Zad 49 - Kozikowski</title>
+    <style>
+        body{font-size: 40px;}
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        function silnia_koz() {
+            
+            do {n_koz = parseFloat(prompt("Podaj liczbę: "));}
+                while(n_koz<0)
+                
+            if (n_koz >= 0) {
+                var wynik = 1;
+
+                for (var i = 1; i <= n_koz; i++) 
+                {wynik *= i;}
+
+                document.write("n = " + n_koz + "<br>");
+                document.write(n_koz + "! = " + wynik);
+            } else {
+                document.write("Podana wartość nie jest liczbą");
+            }
+        }
+        silnia_koz();
+    </script>
+</body>
+</html>
+            </textarea></body></html>
