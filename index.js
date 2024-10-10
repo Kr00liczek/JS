@@ -100,6 +100,47 @@ function zad16()
 function kod16()
     {window.open("zadanie16_koz_KOD.html", "okienko_kod16",
     "toolbar=no, directories=no, menubar=no, height=450, width=600, top=200, left=400");} 
+    
+//==================================Dział 4==================================================
+
+function zad17()
+    {window.open("zadanie17_koz.html", "okienko_z17",
+    "toolbar=no, directories=no, menubar=no, height=700, width=750, top=200, left=400");}
+
+function zad18()
+    {window.open("zadanie18_koz.html", "okienko_z18",
+    "toolbar=no, directories=no, menubar=no, height=550, width=750, top=200, left=400");}
+//=====================Kod===============
+function kod18()
+    {window.open("zadanie18_koz_KOD.html", "okienko_kod18",
+    "toolbar=no, directories=no, menubar=no, height=650, width=720, top=200, left=400");}
+
+
+
+function zad19()
+    {window.open("zadanie19_koz.html", "okienko_z19",
+    "toolbar=no, directories=no, menubar=no, height=350, width=600, top=200, left=400");}
+
+function zad21()
+    {window.open("zadanie21_koz.html", "okienko_z21",
+    "toolbar=no, directories=no, menubar=no, height=350, width=600, top=200, left=400");}
+
+function zad22()
+    {window.open("zadanie22_koz.html", "okienko_z22",
+    "toolbar=no, directories=no, menubar=no, height=350, width=600, top=200, left=400");}
+//=====================Kod===============
+function kod22()
+    {window.open("zadanie22_koz_KOD.html", "okienko_kod22",
+    "toolbar=no, directories=no, menubar=no, height=730, width=720, top=200, left=400");}
+
+
+function zad23()
+    {window.open("zadanie23_koz.html", "okienko_z23",
+    "toolbar=no, directories=no, menubar=no, height=350, width=600, top=200, left=400");}
+//=====================Kod===============
+function kod23()
+    {window.open("zadanie23_koz_KOD.html", "okienko_kod23",
+    "toolbar=no, directories=no, menubar=no, height=800, width=720, top=200, left=400");}
 
 //==================================Dział 5==================================================
 
@@ -175,6 +216,11 @@ function kod40()
     "toolbar=no, directories=no, menubar=no, height=800, width=870, top=200, left=400");}
 
 //==================================Dział 7==================================================
+
+function zad41()
+    {window.open("zadanie41_koz.html", "okienko_z41",
+    "toolbar=no, directories=no, menubar=no, height=620, width=900, top=200, left=400");}
+
 function zad42()
     {window.open("zadanie42_koz.html", "okienko_z42",
     "toolbar=no, directories=no, menubar=no, height=600, width=700, top=200, left=400");}
@@ -223,6 +269,7 @@ function kod47()
     {window.open("zadanie47_koz_KOD.html", "okienko_kod47",
     "toolbar=no, directories=no, menubar=no, height=600, width=700, top=200, left=400");}
 
+
 function zad49()
     {window.open("zadanie49_koz.html", "okienko_z49",
     "toolbar=no, directories=no, menubar=no, height=250, width=600, top=200, left=400");}
@@ -270,3 +317,63 @@ function zad57()
 function zad58()
     {window.open("zadanie58_koz.html", "okienko_z58",
     "toolbar=no, directories=no, menubar=no, height=400, width=600, top=200, left=400");}
+
+//==================================Dział 8==================================================
+
+function zad60()
+    {window.open("zadanie60_koz.html", "okienko_z60",
+    "toolbar=no, directories=no, menubar=no, height=440, width=250, top=200, left=400");}
+
+function zad61()
+    {window.open("zadanie61_koz.html", "okienko_z61",
+    "toolbar=no, directories=no, menubar=no, height=400, width=600, top=200, left=400");}
+
+function zad62()
+    {window.open("zadanie62_koz.html", "okienko_z62",
+    "toolbar=no, directories=no, menubar=no, height=400, width=600, top=200, left=400");}
+
+function zad63()
+    {window.open("zadanie63_koz.html", "okienko_z63",
+    "toolbar=no, directories=no, menubar=no, height=550, width=250, top=200, left=400");}
+
+function zad64()
+    {window.open("zadanie64_koz.html", "okienko_z64",
+    "toolbar=no, directories=no, menubar=no, height=400, width=600, top=200, left=400");}
+
+function zad66()
+    {window.open("zadanie66_koz.html", "okienko_z66",
+    "toolbar=no, directories=no, menubar=no, height=400, width=700, top=200, left=400");}
+
+//==================================Dział 9==================================================
+
+function zad69()
+    {window.open("zadanie69_koz.html", "okienko_z69",
+    "toolbar=no, directories=no, menubar=no, height=1000, width=1100, top=200, left=400");}
+
+function zad70()
+    {window.open("zadanie70_koz.html", "okienko_z70",
+    "toolbar=no, directories=no, menubar=no, height=400, width=700, top=200, left=400");}
+
+function zad71()
+    {window.open("zadanie71_koz.html", "okienko_z71",
+    "toolbar=no, directories=no, menubar=no, height=400, width=700, top=200, left=400");}
+
+function zad72()
+    {window.open("zadanie72_koz.html", "okienko_z72",
+    "toolbar=no, directories=no, menubar=no, height=400, width=700, top=200, left=400");}
+
+function zad73()
+    {window.open("zadanie73_koz.html", "okienko_z73",
+    "toolbar=no, directories=no, menubar=no, height=400, width=700, top=200, left=400");}
+
+function zad74()
+    {window.open("zadanie74_koz.html", "okienko_z74",
+    "toolbar=no, directories=no, menubar=no, height=400, width=700, top=200, left=400");}
+
+function zad75()
+    {window.open("zadanie75_koz.html", "okienko_z75",
+    "toolbar=no, directories=no, menubar=no, height=450, width=820, top=200, left=400");}
+
+function zad76()
+    {window.open("zadanie76_koz.html", "okienko_z76",
+    "toolbar=no, directories=no, menubar=no, height=1000, width=1100, top=200, left=400");}

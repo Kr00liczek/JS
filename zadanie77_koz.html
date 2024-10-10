@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <head>
+ <meta charset="utf-8">
+ <title>Przykład nr tutaj wpisz odpowiedni numer oraz nazwisko </title>
+ <script language="JavaScript"> 
+function CKE()
+    {window.location = "http://cke.gov.pl";}
+
+function GDA()
+    {window.location = "http://gdansk.pl";}
+
+function ONET()
+    {window.location = "http://onet.pl";}
+
+setTimeout("CKE()",4000);
+setTimeout("GDA()",6000);
+setTimeout("ONET()",10000);         //Nie działa tak, jakbym sobie tego życzył
+ </script>
+ </head>
+<body>
+ <form>
+ <input type="button" name="przycisk1" value="Strona CKE" onclick="CKE(' ')">
+ <input type="button" name="przycisk2" value="Strona miasta Gdańsk" onclick="GDA(' ')">
+ <input type="button" name="przycisk2" value="Strona Onet" onclick="ONET(' ')">
+ </form>
+</body>
+</html>

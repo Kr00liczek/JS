@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 91</title>
+</head>
+<body>
+    <script language='JavaScript' type='text/JavaScript'>
+        function weryfikacja_hasla()
+        {
+        var prob = 1;
+        var haslo = prompt('Podaj hasło','');
+        if (haslo != null)
+        {
+        while (prob < 3)
+        {
+        if (!haslo) history.go(-1);
+        //Metoda toLowerCase zwraca wartość łańcucha znaków skonwertowanego na
+        małe litery
+        if (haslo.toLowerCase() == 'asdf')
+        {
+        alert('Hasło OK!');
+        window.open('skrypt1.html','_top');
+        break;
+        }
+        prob+=1;
+        var haslo = prompt('Złe hasło. Spróbuj ponownie','Hasło');
+        }
+        }
+        if (haslo !=null) {
+        if (haslo.toLowerCase()!='Hasło' + prob ==3) history.go(-1);return ' ';}}
+        </script>
+
+<form action="?" onsubmit="window.location.href = this.password.value + '.html'; return false">
+    <input type="password" name="password" id="pwd"/>
+    <input type="submit" value="OK" />
+</body>
+</html>

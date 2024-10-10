@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="UTF-8">
+ <title>Zad 63 - Kozikowski</title>
+</head>
+<body>
+ <script>
+ var TaB_koz = new Array('Tymbark', 'Kubuś', '7up', 'Lipton', 'Sprite', 'Oshee', 'Pepsi');
+ 
+ for (i = 0; i<TaB_koz.length; i++)
+ {
+ document.write(TaB_koz[i] + "<br>");
+ }
+ 
+ TaB_koz.push('Coca-Cola');
+ document.write("<br><b>Po dolączeniu elementu</b><br>");
+ document.write(TaB_koz.join("<br>")+"<br>");
+
+ TaB_koz.shift('Tymbark');
+ document.write("<br><b>Po usuinięciu pierwszego elementu</b><br>");
+ document.write(TaB_koz.join("<br>"));
+ </script>
+</body>
+</html>

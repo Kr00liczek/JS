@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            Kod Zadanie 18 - Kozikowski
+        </title>
+    </head>
+        <body>
+            <h1>Kod HTML</h1>
+            <textarea cols="90" rows="36">
+<!DOCTYPE html>
+    <head>
+        <title>Zad 18 - Kozikowski </title>
+        <meta charset="utf-8">
+    </head>
+        <body>
+            <div style="color:navy;font-size:50px;">
+                <script language="JavaScript">
+                    var a=parseFloat(prompt("a=",""));
+                    var b=parseFloat(prompt("b=",""));
+
+                    function suma_koz(a, b) 
+                    {return a + b;}
+
+                    function odejmowanie_koz(a, b) 
+                    {return a - b;}
+
+                    function mnozenie_koz(a, b) 
+                    {return a * b;}
+
+                    function do_kwadratu_koz(a, b) 
+                    {return `${a}<sup>2</sup> =`+ a * a +`<br> ${b}<sup>2</sup> = `+ b*b;}
+
+                    function reszta_z_dzielenia_a_przez_b_koz(a, b) 
+                    {return a % b;}
+
+                    document.write(`suma  ${a} + ${b} =`+suma_koz(a,b)+`<br>`);
+                    document.write(`różnica ${a} - ${b} = `+odejmowanie_koz(a,b)+`<br>`);
+                    document.write(`mnożenie ${a} * ${b} = `+mnozenie_koz(a,b)+`<br>`);
+                    document.write(`do kwadratu <br>`+do_kwadratu_koz(a,b)+`<br>`);
+                    document.write(`reszta z dzielenia ${a} przez ${b} = `+reszta_z_dzielenia_a_przez_b_koz(a,b));
+                </script>
+            </div>
+        </body>
+</html></textarea>
+    </body></html>

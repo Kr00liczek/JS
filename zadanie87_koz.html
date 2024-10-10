@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Zadanie 87</title>
+    <script language="JavaScript">
+        function Haslo() {
+            var wpisaneHaslo = document.getElementById('password').value;
+            var poprawneHaslo = "tajnehaslo";  // Poprawne hasło
+
+            if (wpisaneHaslo == poprawneHaslo) {
+                document.write("Poprawne hasło! Logowanie udane.");
+                window.location.href = wpisaneHaslo + '.html';  // Przekierowanie na nową stronę
+            } else {
+                alert("Błędne hasło. Spróbuj jeszcze raz.");
+            }
+
+            // Zwróć false, aby zatrzymać standardową akcję formularza
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <form action="?" onsubmit="window.location.href = this.password.value + '.html'; return false">
+        <input type="password" name="password" />
+        <input type="submit" value="OK" />
+    </form>
+</body>
+</html>

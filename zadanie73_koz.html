@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zad 73 - Kozikowski</title>
+    <style>body{font-size: 20px;}</style>
+</head>
+<body>
+
+<script type="text/javascript">
+    function wyswietlDate() {
+        var Today = new Date();
+        var Month = (Today.getMonth() + 1);
+        var Day = Today.getDate();
+        var Year = Today.getFullYear();
+        if (Year <= 99) Year += 1900;
+        return Day + "-" + Month + "-" + Year;
+    }
+
+    document.write("Norbert Kozikowski, dzisiejsza data: " + wyswietlDate() + "<br><br>");
+
+    document.write("Przeglądarka = " + navigator.appName + "<br><br>");
+    document.write("Wersja przeglądarki = " + navigator.appVersion + "<br><br>");
+    document.write("Wszystkie Dane przeglądarki = " + navigator.userAgent + "<br><br>");
+    document.write("System operacyjny = " + navigator.platform + "<br><br>");
+    document.write("Tryb pracy przeglądarki = " + (navigator.onLine ? "Online" : "Offline") + "<br><br>");
+    document.write("Obsługa Java = " + (navigator.javaEnabled() ? "Tak" : "Nie"));
+
+</script>
+
+</body>
+</html>

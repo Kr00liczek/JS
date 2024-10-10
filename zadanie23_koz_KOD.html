@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>
+            Kod Zadanie 23 - Kozikowski
+        </title>
+    </head>
+        <body>
+            <h1>Kod HTML</h1>
+            <textarea cols="90" rows="47">
+<html>
+    <head>
+        <title>Zad 23 - Kozikowski</title>
+            <script language="JavaScript">
+function drabina(x_koz, d_koz) 
+{
+    x = parseFloat(x_koz)
+    d = parseFloat(d_koz)
+    drab = Math.sqrt(x * x + d * d);
+    document.getElementsByName('drabinka')[0].value=drab.toFixed(2); 
+    alert("Długość drabiny = "+drab.toFixed(2)+"m")
+    drabina_koz.innerHTML="Długość drabiny = "+drab.toFixed(2)+"m<br>";
+    
+}
+
+function alfa(x_koz,d_koz)
+{
+    x = parseFloat(x_koz)
+    d = parseFloat(d_koz)
+    arctan = Math.atan(d / x);
+    stopnie = (arctan * 180) / Math.PI;
+    document.getElementsByName('kat')[0].value=stopnie.toFixed(2);
+    alert("Kąt nachylenia drabiny = "+stopnie.toFixed(2)+" stopni")
+    alfa_koz.innerHTML="Kąt nachylenia drabiny = "+stopnie.toFixed(2)+" stopni";
+}
+            </script>
+    </head>
+        <body>
+            <h1>Obliczanie odległości od drabiny i kąta ◣</h1>
+
+            <form action="..." onsubmit="drabina(this.x.value,this.d.value); 
+            alfa(this.x.value,this.d.value);return false">
+
+                Podaj d: <input size="6" name="d">&nbsp;&nbsp;&nbsp;&nbsp;
+                Podaj x: <input size="6" name="x"><br><br>
+                <input type="submit" Value="oblicz" ><br><br>
+                Drabina = <input size="6" name="drabinka">&nbsp;&nbsp;&nbsp;&nbsp;
+                Alfa = <input size="6" name="kat">
+            </form>
+
+            <table>
+                <tr id="drabina_koz"></tr>
+                <tr id="alfa_koz"></tr>
+            </table>
+        </body>
+</html></textarea>
+        </body></html>
